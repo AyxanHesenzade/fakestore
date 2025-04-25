@@ -1,0 +1,35 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "title": "Product 1",
+        "image": "https://picsum.photos/id/237/100/100",
+        "category": "Category 1",
+        "price": 10,
+        "description": "This is product 1"
+      },
+      {
+        "id": 2,
+        "title": "Product 2",
+        "image": "https://picsum.photos/id/257/100/100",
+        "category": "Category 2",
+        "price": 20,
+        "description": "This is product 2"
+      }
+    ],
+    "categories": [
+      {
+        "id": 1,
+        "name": "Category 1"
+      },
+      {
+        "id": 2,
+        "name": "Category 2"
+      },
+      {
+        "id": 3,
+        "name": "Category 3"
+      }
+    ]
+  }
+  
