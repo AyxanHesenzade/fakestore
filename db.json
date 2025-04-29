@@ -9,12 +9,12 @@
       "description": "This is product 1"
     },
     {
-      "id": "2",
       "title": "Product 2",
-      "image": "https://picsum.photos/id/257/100/100",
+      "description": "This is product 2",
+      "price": "200",
       "category": "Category 2",
-      "price": 20,
-      "description": "This is product 2"
+      "image": "https://picsum.photos/id/257/100/100",
+      "id": "2"
     },
     {
       "id": "3",
@@ -39,14 +39,6 @@
       "price": "45",
       "category": "Category 2",
       "image": "https://picsum.photos/id/309/100/100"
-    },
-    {
-      "id": "6",
-      "title": "test6",
-      "description": "test6",
-      "price": "45",
-      "category": "Category 2",
-      "image": "https://picsum.photos/id/310/100/100"
     }
   ],
   "categories": [
