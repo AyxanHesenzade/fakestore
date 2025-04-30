@@ -15,13 +15,17 @@ function List({contacts}) {
       <input placeholder="Filter Contact" value={filterText} onChange={(e)=>setFilterText(e.target.value)} />
     </div>
     <div>
-      <ul>
+      {filtered.length ===0 ? (
+        <p>Nəticə yoxdur</p>
+      ) : (
+        <ul>
         {
           filtered.map((contact, i)=>(
             <li key={i}>{contact.fullname}</li>
           ))
         }
       </ul>
+      )}
     </div>
     
     </>

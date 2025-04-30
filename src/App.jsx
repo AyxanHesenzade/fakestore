@@ -5,9 +5,12 @@ import List from "@/components/Contacts/List/index.jsx";
 import Form from "./components/Contacts/Form";
 import Contact from "./components/Contacts";
 function App() {
+
+
   return (
     <>
       <Contact />
+    
      
     </>
   );
